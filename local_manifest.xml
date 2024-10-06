@@ -16,7 +16,7 @@
  
  
  <!-- Trees -->
- <project path="device/xiaomi/apollo" name="android_device_xiaomi_apollo" remote="realm" revision="lineage_base" />
+ <project path="device/xiaomi/apollo" name="android_device_xiaomi_apollo" remote="realm" revision="lineage-base" />
  <project path="vendor/xiaomi/apollo" name="android_vendor_xiaomi_apollo" remote="realm" revision="main" />
  <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="realm" revision="apollo" />
  <project path="vendor/xiaomi/camera" name="vendor_xiaomi_camera-apollo" remote="lab" revision="main" />
