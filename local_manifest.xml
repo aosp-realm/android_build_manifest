@@ -21,7 +21,7 @@
  <project path="vendor/xiaomi/camera" name="vendor_xiaomi_camera-apollo" remote="lab" revision="main" />
  <project path="kernel/xiaomi/apollo" name="android_kernel_xiaomi_apollo" remote="realm" revision="main" />
 
- <remove-project name="android_hardware_xiaomi" />
- <project path="hardware/xiaomi" name="hardware_xiaomi-derp" remote="realm" revision="15" />
+ <!-- <remove-project name="android_hardware_xiaomi" /> -->
+ <project path="hardware/xiaomi" name="hardware_xiaomi" remote="realm" revision="fourteen" />
 
 </manifest>
