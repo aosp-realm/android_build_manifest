@@ -13,7 +13,7 @@
  <!-- Trees -->
  <project path="device/xiaomi/apollo" name="android_device_xiaomi_apollo" remote="realm" revision="derp-15" />
  <project path="vendor/xiaomi/apollo" name="android_vendor_xiaomi_apollo" remote="realm" revision="derp-15" />
- <project path="kernel/xiaomi/sm8250" name="android_kernel_xiaomi_sm8250" remote="realm" revision="apollo" />
+ <project path="kernel/xiaomi/apollo" name="android_kernel_xiaomi_apollo" remote="realm" revision="main" />
  
  <project path="hardware/xiaomi" name="hardware_xiaomi-derp" remote="realm" revision="15" />
 
