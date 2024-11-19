@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-<remove-project path="vendor/aospa" />
-<project path="vendor/aospa" name="aosp-realm/vendor_aospa" remote="github" revision="vauxite" >
-<linkfile src="build.sh" dest="rom-build.sh" />
-   
+   <remove-project path="vendor/xiaomi" />
+   <remove-project path="vendor/aospa" />
+   <project path="vendor/aospa" name="aosp-realm/vendor_aospa" remote="github" revision="vauxite" >
+   <linkfile src="build.sh" dest="rom-build.sh" /> 
 </manifest>
