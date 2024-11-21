@@ -22,6 +22,6 @@
  <project path="kernel/xiaomi/apollo" name="android_kernel_xiaomi_apollo" remote="realm" revision="main" />
 
  <!-- <remove-project name="android_hardware_xiaomi" /> -->
- <project path="hardware/xiaomi" name="hardware_xiaomi-derp" remote="realm" revision="15" />
+ <project path="hardware/xiaomi" name="hardware_xiaomi" remote="realm" revision="fourteen" />
 
 </manifest>
