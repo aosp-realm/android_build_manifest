@@ -1,18 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- <!-- Remotes -->
-    <remote name="hub"
-            fetch="https://github.com/dogpoopy/"
-            clone-depth="1" />
+  <!-- Remotes -->
+  <remote name="realm" fetch="https://github.com/aosp-realm" />
+  <remote name="cupid" fetch="https://github.com/cupid-development" />
 
-    <remote name="lab"
-            fetch="https://gitlab.com/dogpoopy/"
-            clone-depth="1" />
-
- <!-- Trees -->
- <project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" remote="hub" revision="main" />
- <project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" remote="lab" revision="main" />
- <project path="kernel/xiaomi/vayu" name="dogpoopy/android_kernel_xiaomi_vayu" remote="github" revision="thirteen" />
+  <!-- Projects -->
+  <project path="device/xiaomi/mondrian"
+           name="android_device_xiaomi_mondrian"
+           remote="realm"
+           revision="fifteen"
+           clone-depth="1" />
+  <project path="vendor/xiaomi/mondrian"
+           name="android_vendor_xiaomi_mondrian"
+           remote="realm"
+           revision="fifteen"
+           clone-depth="1" />
+  <project path="kernel/xiaomi/sm8450"
+           name="android_kernel_xiaomi_sm8450"
+           remote="cupid"
+           revision="lineage-22.2"
+           clone-depth="1" />
+  <project path="kernel/xiaomi/sm8450-modules"
+           name="android_kernel_xiaomi_sm8450-modules"
+           remote="cupid"
+           revision="lineage-22.2"
+           clone-depth="1" />
 
 </manifest>
